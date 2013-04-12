@@ -1,4 +1,4 @@
-Toolkit
-=======
+Keen IO Toolkit
 
-Various scripts and things that work with the Keen IO APIs
+Here we keep lil scripts and stuff that we think might be useful to others!
+Feel free to contribute :)
