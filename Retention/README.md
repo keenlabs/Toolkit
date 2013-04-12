@@ -13,10 +13,10 @@ Retention Analysis Script
 
 <p>Steps</p>
 <ol>
-    <li>Step 1 - Determine how far back in the past you want to go for this analysis and set the value of num_weeks. Calculations will be run for every week since that week, up until the most recent completed week.</li>
-    <li>Step 2 - Enter your Keen Project Info into the script variables.</li>
-    <li>Step 3 - Define your funnel steps in the script. The first step will define your cohort groups. The last step will determine your "success" criteria.</li>
-    <li>Step 4 - Run the script!</li>
+    <li>Determine how far back in the past you want to go for this analysis and set the value of num_weeks. Calculations will be run for every week since that week, up until the most recent completed week.</li>
+    <li>Enter your Keen Project Info into the script variables.</li>
+    <li>Define your funnel steps in the script. The first step will define your cohort groups. The last step will determine your "success" criteria.</li>
+    <li>Run the script!</li>
 
 <p>If you have any questions about this script, you can contact me at michelle@keen.io or join our <a href="https://groups.google.com/forum/#!forum/keen-io-devs">Keen IO developers google group.</a><p>
 
