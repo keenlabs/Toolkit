@@ -26,8 +26,8 @@ num_weeks = 15
 
 # Step 2 - Enter your Keen Project Info
 
-$projectID = "5011efa95f546f2ce2000000"
-$key = "bc77cc2ff8c24c2aa1972b0d6c2058c2"
+$projectID = "<your project ID>"
+$key = "<your API key>"
 $api_version = "3.0"   # You probably don't need to change this
 $api_url = "https://api.keen.io" # You probably don't need to change this
 
@@ -39,17 +39,17 @@ $api_url = "https://api.keen.io" # You probably don't need to change this
 
 $steps = [
     {
-     :event_collection => "create_organization",
-     :actor_property => "organization.id",
-     :filters => [{
-               :property_name => "organization.name",
-               :operator => "ne",
-               :property_value => "Keen"
-               }],    
+     :event_collection => "<the name of the collection to use for the first step of your funnel>",  # e.g. signup, create_account
+     :actor_property => "<the name of the event property you use to uniquely identify the account or user>",  #e.g. organization.id, user.id 
+     #:filters => [{                                    
+     #           :property_name => "organization.name",   # you can optionally apply filters to any step of the funnel to exclude events
+     #           :operator => "ne",
+     #           :property_value => "Test"
+     #           }],    
      },
      {
-     :event_collection => "events_added_api_call",
-     :actor_property => "project.organization.id",
+     :event_collection => "<the name of the collection to use for the second step of your funnel, the engagement activity>", #e.g. submit_content, login, share, post
+     :actor_property => "<the name of the event property you use to uniquely identify the account or user>", #needs to have the same type of values as the actor_property in step 1 
      },
  ]
 
