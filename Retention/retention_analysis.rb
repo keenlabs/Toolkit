@@ -23,8 +23,8 @@ num_weeks = 52
 
 # Step 2 - Enter your Keen Project Info
 
-Keen.project_id = <project ID>
-Keen.read_key = <key>
+Keen.project_id = <PROJECT_ID>
+Keen.read_key = <READ_KEY>
 
 # Step 3 - Define your funnel steps. The first step will define your cohort groups. The last step will determine your "success" criteria.
 # For example, say you are interested in login activity for customers who have paid

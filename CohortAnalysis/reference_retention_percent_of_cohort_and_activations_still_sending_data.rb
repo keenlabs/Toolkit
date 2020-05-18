@@ -34,8 +34,8 @@ report_description = "6mo retention for Dec 2014 Board Meeting"
 
 # Step 2 - Enter your Keen Project Info
 
-Keen.project_id = '5011efa95f546f2ce2000000'
-Keen.read_key = 'ef717eaec4aeb8e8b8b18891ffaa1eafed8c14cac1f7cb90030eaa7ed79ed2d540ee267547267c73f4c6e7ff9bcb8f7dec4df9500499a70737777d71971a20e6e3cd6532b44a44c5d269811178c2308867fd5082d44e51c05496b0099c4a06649207b8db43fe0458cf3cc059f5ecaadc'
+Keen.project_id = '<PROJECT_ID>'
+Keen.read_key = '<READ_KEY>'
 
 # Step 3 - Define your funnel steps. The first step will define your cohort groups. The last step will determine your "success" criteria.
 # For example, say you are interested in login activity for customers who have paid

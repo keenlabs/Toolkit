@@ -2,10 +2,10 @@ require 'keen'
 require 'active_support/all'
 require 'date'
 
-Keen.project_id = '5011efa95f546f2ce2000000'
-Keen.read_key = '' #Key has been removed for security purposes
+Keen.project_id = '<PROJECT_ID>'
+Keen.read_key = 'READ_KEY'
 
-signup_start_date = Date.new(2015, 1, 5) # "2015-01-05 00:00:00 -0800"  # monday morning at midnight
+signup_start_date = Date.new(2020, 1, 5) # "2020-01-05 00:00:00 -0800"  # monday morning at midnight
 #puts Date.today.at_beginning_of_week
 #puts signup_start_date < Date.today.at_beginning_of_week
 
