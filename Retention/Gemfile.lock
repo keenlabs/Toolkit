@@ -20,8 +20,8 @@ GEM
     simple_xlsx_writer (0.5.3)
       fast_xs (>= 0.7.3)
       rubyzip (>= 0.9.4)
-    thread_safe (0.3.4)
-    tzinfo (1.2.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
 
 PLATFORMS
